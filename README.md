@@ -62,6 +62,18 @@ git push -u origin <your_branch_name>
 
 **15.** Hurray ❗ You have created a PR to the DSC-BITD Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 
+## Project Maintainers  ❤️ 
+
+|                                     <a href="https://github.com/kod-it"><img src="https://avatars.githubusercontent.com/kod-it" width=150px height=150px /></a>                                      |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                      **[Akash Dip]()** 
+
+
+
+|                                     <a href="https://github.com/neha030"><img src="https://avatars.githubusercontent.com/neha030" width=150px height=150px /></a>                                      |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                      **[Neha Jha](https://www.linkedin.com/in/neha-jha-102062206)** 
+
 ## Connect With Us
 
 <div align="center">
