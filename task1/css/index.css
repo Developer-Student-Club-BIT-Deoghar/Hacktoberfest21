@@ -1,0 +1,146 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .1);
+    padding: 120px 0;
+}
+
+/* BUTTONS */
+
+input[type="submit"],
+.button,
+button {
+    font-size: 1.1rem;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.3);
+    color: rgba(0, 0, 0, .3);
+    min-width: 120px;
+    padding: 14px 10px;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+input[type="submit"]:hover,
+.button:hover,
+button:hover {
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+
+/* CARDS */
+
+.card-container {
+    font-family: 'Lato';
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 10px 0 10px;
+}
+
+.card {
+    display: inline-block;
+    max-width: 570px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    box-shadow: 0 0px 12px 0 rgba(0,0,0,.4);
+    margin-bottom: 25px;
+}
+
+.card__image,
+.card__image img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.card__textContent {
+    display: inline-block;
+    background-color: white;
+    margin: -30px auto 0 auto;
+    width: 80%;
+    padding: 20px 10px;
+}
+
+.card__title {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, .1);
+}
+
+.card__title-main {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card__title-sub {
+    color: rgba(0, 0, 0, .6);
+    font-size: 1.2rem;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.card__content {
+    color: rgba(0, 0, 0, .8);
+    text-align: justify;
+    margin-bottom: 25px;
+    line-height: 1.6rem;
+}
+
+@media screen and (min-width: 1170px) {
+
+    .card-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }    
+
+    .card {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+
+    .card-container {
+        display: block;
+        padding-bottom: 1px;
+    }
+
+    .card {
+        max-width: 1024px;
+        text-align: left;
+        padding: 0;
+        display: flex;
+        margin: 0 auto 25px auto;
+    }
+
+    .card__image {
+        max-width: 66%;
+        text-align: left;
+        /* This should be changed by JS
+        background-image: url("/images/PIC.jpeg"); */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .card__image img {
+        display: none;
+    }
+
+    .card__textContent {
+        display: inline-block;
+        width: 65%;
+        margin: 12px 0 0 -30px;
+        padding: 25px;
+    }
+
+    .card__title {
+        text-align: left;
+    }
+}
