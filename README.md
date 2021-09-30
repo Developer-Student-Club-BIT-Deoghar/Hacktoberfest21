@@ -1,6 +1,17 @@
 # Hacktoberfest21
 Repository for Hacktoberfest 2021
 
+
+## 💻Tech Stack
+ 
+ 
+  
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  
+
+
 ## 📌Contributing Guidelines :
 **1.**  Fork [this](https://github.com/Developer-Student-Club-BIT-Deoghar/website.git) repository.
 
@@ -50,4 +61,15 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 **15.** Hurray ❗ You have created a PR to the DSC-BITD Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+
+## Connect With Us
+
+<div align="center">
+
+<a  href="https://www.linkedin.com/in/dsc-bitd" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+[<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://instagram.com/dscbitdeoghar?utm_medium=copy_link)
+ <a  href="https://twitter.com/club_bitd?s=08" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter%20-%230077B5.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>
+[<img src = "https://img.shields.io/badge/discord-%23E4405F.svg?&style=for-the-badge&logo=discord&logoColor=white">](https://bit.ly/Discord-DSC)
+
+</div>
 
