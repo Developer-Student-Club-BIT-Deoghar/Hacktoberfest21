@@ -91,3 +91,8 @@ git push -u origin <your_branch_name>
 
 </div>
 
+
+<p align="center">
+    <a href="https://gdsc.community.dev/birla-institute-of-technology-mesra-deoghar/"><img src="https://github.com/Developer-Student-Club-BIT-Deoghar/Hacktoberfest21/blob/main/Images/DSCLogo.png" /></a>
+</p>
+
