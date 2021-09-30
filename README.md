@@ -17,19 +17,19 @@ Hacktoberfest is an annual month-long celebration of open source organised every
 
 
 ## 📌Contributing Guidelines :
-**1.**  Fork [this](https://github.com/Developer-Student-Club-BIT-Deoghar/website.git) repository.
+**1.**  Fork [this](https://github.com/Developer-Student-Club-BIT-Deoghar/Hacktoberfest21.git) repository.
 
 **2.**  Clone your forked copy of the project.
 ```
-git clone --depth 1 https://github.com/<your_name>/website.git
+git clone --depth 1 https://github.com/<your_name>/Hacktoberfest21.git
 ```
 **3.** Navigate to the project directory :file_folder: .
 ```
-cd website
+cd Hacktoberfest21
 ```
 **4.** Add a reference(remote) to the original repository.
 ```
-git remote add upstream https://github.com/Developer-Student-Club-BIT-Deoghar/website.git
+git remote add upstream https://github.com/Developer-Student-Club-BIT-Deoghar/Hacktoberfest21.git
 ```
 **5.** Check the remotes for this repository.
 ```
@@ -64,7 +64,7 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-**15.** Hurray ❗ You have created a PR to the DSC-BITD Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+**15.** Hurray ❗ You have created a PR to the DSC-BITD Hacktoberfest21 Website 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 
 ## Project Maintainers  ❤️ 
 
