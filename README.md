@@ -6,13 +6,6 @@ Hacktoberfest is back this year!
 
 Hacktoberfest is an annual month-long celebration of open source organised every year by DIgital Ocean. Every participant who follows their set of rules and get 4 Pull Requests (PRs) merged will receive swags. For the past years, learners have been hacking throughout October in the open-source community, and this 8th year you can avail yourself the opportunity to partake and contribute to this ever-growing platform.
 
-Connect With Us
-GDSC: https://gdsc.community.dev/birla-institute-of-technology-mesra-deoghar/
-Twitter: https://twitter.com/club_bitd
-LinkedIn: https://www.linkedin.com/in/dsc-bitd/
-Instagram: https://www.instagram.com/dscbitdeoghar/
-Discord: https://bit.ly/Discord-DSC
-Telegram: https://t.me/joinchat/Ql5ukIjDiEcxNmNl
 
 ## 💻Tech Stack
  
