@@ -6,9 +6,9 @@ import Data from "./data.json"
 const Team = () => {
 
   return (
-    <div className="container mt-3 mb-3">
-      <h1 className="heading">Our Team</h1>
-      <div className="flex-container">
+    <div className="container">
+      <h1>Our Team</h1>
+      <div className="row">
       {Data.map(data => {
         return (
         <TeamMember name={data.name} img={data.img}/>
