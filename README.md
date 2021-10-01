@@ -7,12 +7,11 @@ Hacktoberfest is an annual month-long celebration of open source organised every
 
 Connect With Us
 GDSC: https://gdsc.community.dev/birla-institute-of-technology-mesra-deoghar/
-
 Twitter: https://twitter.com/club_bitd
 LinkedIn: https://www.linkedin.com/in/dsc-bitd/
 Instagram: https://www.instagram.com/dscbitdeoghar/
 Discord: https://bit.ly/Discord-DSC
-Telegram: https://t.me/joinchat/Ql5ukIjDiEcxNmNl
+Telegram: https://t.me/joinchat/Ql5ukIjDiEcxNmNl 
 
 ## 💻Tech Stack
  
