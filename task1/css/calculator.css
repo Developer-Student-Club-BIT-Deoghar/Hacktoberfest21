@@ -5,7 +5,7 @@ body {
 	padding: 120px 0;
 	margin: 0;
 	padding-top: 0;
-	overflow: hidden;
+	background-image: linear-gradient(#753a88,#cc2b5e);
 }
 
 section{
@@ -21,22 +21,21 @@ section{
 }
 
 .calculator {
-	padding: 20px;
 	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 	border-radius: 1px;
 	background-color: #212223;
+	height: auto;
 }
 
 .input {
 	border-radius: 1px;
-	background-color: #ddd;
-	color: black;
-	height: 60px;
+	background-color: #111;
+	color: #ddd;
+	height: 100px;
 	padding-right: 15px;
 	padding-top: 10px;
 	text-align: right;
-	margin-right: 6px;
 	font-size: 2.5rem;
 	overflow-x: auto;
 	transition: all .2s ease-in-out;
@@ -47,56 +46,72 @@ section{
 	box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-.buttons {}
+.buttons {
+	display: flex;
+}
 
-.operators {}
+.leftPanel {
+	flex-basis: 80%;
+	margin-top: 4px;
+}
+
+.operators {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	margin-left: -1px;
+}
 
 .operators div {
-	display: inline-block;
-	border: 1px solid #bbb;
-	border-radius: 1px;
-	width: 80px;
+	width: 100%;
 	text-align: center;
-	padding: 10px;
-	margin: 20px 4px 10px 0;
+	color: #fff;
+	border-bottom: 1px solid #721691;
 	cursor: pointer;
-	background-color: #ddd;
+	background-color: #753a88;
 	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
 
 .operators div:hover {
-	background-color: #ddd;
+	background-color: #721691;
 	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-	border-color: #aaa;
+}
+
+.zero {
+	margin-top:4px;
+	padding: 10px 0;
+}
+
+.one {
+	padding: 12px 0;
 }
 
 .operators div:active {
 	font-weight: bold;
 }
 
-.leftPanel {
-	display: inline-block;
+.numbers {
+	display: flex;
 }
 
 .numbers div {
-	display: inline-block;
 	border: 1px solid #ddd;
+	width: 100%;
+	padding: 11px 0;
 	border-radius: 1px;
-	width: 80px;
 	text-align: center;
-	padding: 10px;
-	margin: 10px 4px 10px 0;
 	cursor: pointer;
 	background-color: #f9f9f9;
 	transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
 
 .numbers div:hover {
-	background-color: #f1f1f1;
+	background-color: rgb(255, 166, 0);;
+	color: white;
 	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-	border-color: #bbb;
+	border-color: rgb(223, 145, 1);
 }
 
 .numbers div:active {
@@ -104,22 +119,19 @@ section{
 }
 
 div.equal {
-	display: inline-block;
-	border: 1px solid rgb(228, 149, 3);
-	border-radius: 1px;
-	width: 17%;
-	text-align: center;
-	padding: 127px 10px;
-	margin: 10px 6px 10px 0;
-	vertical-align: top;
-	cursor: pointer;
-	color: #FFF;
 	background-color: rgb(255, 166, 0);
 	transition: all .2s ease-in-out;
+	color: #FFF;
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid rgb(228, 149, 3);
+	border-radius: 1px;
+	font-size: 50px;
+	margin-right: -2px;
 }
 
 div.equal:hover {
-	background-color: rgb(236, 159, 15);
+	background-color: rgb(241, 159, 5);
 	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 	border-color: rgb(223, 145, 1);
