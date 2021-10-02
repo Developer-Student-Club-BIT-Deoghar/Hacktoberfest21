@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/quadeqn.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <title>Quadractic Equation Solver</title>
+</head>
+<script src="app.js"></script>
+<body>
+    <!-- Navbar begin -->
+	<header>
+		<nav>
+			<div class="navbar">
+				<div>
+					<a href="../index.html">Home</a>
+				</div>
+				<div>
+					<div class="dropdown">
+						<button class="dropbtn">Socials</button>
+						<div class="dropdown-content">
+							<a href="https://www.instagram.com">Instagram</a>
+							<a href="https://www.twitter.com">Twitter</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">Tools</button>
+						<div class="dropdown-content">
+							<a href="calculator.html">Calculator</a>
+							<a href="stopwatch.html">StopWatch</a>
+							<a href="typing-speed-tester.html">Typing tester</a>
+							<a href="pomodoro.html">Pomodoro Timer</a>
+                            <a href="quadeqn.html">Quadractic Equation Solver</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- Navbar end -->
+    <section>
+        <h1 id="logo">Step Equation Solver</h1>
+    </section>
+    <div class="container">
+        <div class="inputs-container">
+            <form action="#">
+                <input placeholder="A" type="number" name="a" id="a"><label for="a">x<sup>2</sup></label>
+                <input placeholder="B" type="number" name="b" id="b"><label for="b">x</label>
+                <input placeholder="C" type="number" name="c" id="c"><label for="c">c</label>
+        </div>
+        <div class="submit-input"> <input onclick="solve()" class="calculate" type="button" value="Solve It"></div>
+        </form>
+        <div id="answer" class="answer"> Result:</div>
+        <div class="steps"> <label for="step1">Step 1 ----- </label><span id="step1"> </span>
+            <p> <label for="step2">Step 2 ----- </label><span id="step2"> </span>
+            </p>
+            <label for="step3">Step 3 ----- </label><span id="step3"> </span>
+            <p><label for="step4">Step 4 ----- </label><span id="step4"> </span></p>
+        </div>
+    </div>
+
+    <div class="tex2jax">
+        <p>The roots of a quadratic equation <em>ax</em><sup>2</sup> + <em>bx</em> + <em>c</em> = 0 is solved using the following steps<br>
+            &nbsp;</p>
+      
+        <p>&nbsp;</p>
+        <p>The derivation of this formula can be outlined as follows:</p>
+        <ol>
+            <li>&nbsp; Divide both sides of the equation <em>ax</em><sup>2</sup> + <em>bx</em> + <em>c</em> = 0 by
+                <em>a</em>.</li>
+            <li>&nbsp; Transpose the quantity <em>c</em>/<em>a</em> to the right side of the equation.</li>
+            <li>&nbsp; Complete the square by adding <em>b</em><sup>2</sup> / 4<em>a</em><sup>2</sup> to both sides of
+                the equation.</li>
+            <li>&nbsp; Factor the left side and combine the right side.</li>
+            <li>&nbsp; Extract the square-root of both sides of the equation.</li>
+            <li>&nbsp; Solve for <em>x</em> by transporting the quantity <em>b</em> / 2<em>a</em> to the right side of
+                the equation.</li>
+            <li>&nbsp; Combine the right side of the equation to get the quadratic formula.</li>
+        </ol>
+        
+    
+    </div>
+</body>
+
+</html>
