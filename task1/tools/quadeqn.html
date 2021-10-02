@@ -37,17 +37,18 @@
 		</nav>
 	</header>
 	<!-- Navbar end -->
-    <h1 id="logo">Step Equation Solver</h1>
+    <h1 align='center'>Step Equation Solver</h1>
     <div class="container">
-        <div class="inputs-container">
+        <div align='center' class="inputs-container">
             <form action="#">
-                <input placeholder="A" type="number" name="a" id="a"><label for="a">x<sup>2</sup></label>
-                <input placeholder="B" type="number" name="b" id="b"><label for="b">x</label>
-                <input placeholder="C" type="number" name="c" id="c"><label for="c">c</label>
+                Coefficient for x<sup>2</sup>: <input placeholder="A" type="number" name="a" id="a"><label for="a"></label><br>
+                Coefficient for x: <input placeholder="B" type="number" name="b" id="b"><label for="b"></label><br>
+                Constant term: <input placeholder="C" type="number" name="c" id="c"><label for="c"></label>
+            </form>
         </div>
-        <div class="submit-input"> <input onclick="solve()" class="calculate" type="button" value="Solve It"></div>
-        </form>
-        <div id="answer" class="answer"> Result:</div>
+        <br>
+        <div align='center' class="submit-input"> <input onclick="solve()" class="calculate" type="button" value="Solve It"></div>
+        <div id="answer" class="answer"> <h3><b>Result</b></h3></div>
         <div class="steps"> <label for="step1">Step 1 ----- </label><span id="step1"> </span>
             <p> <label for="step2">Step 2 ----- </label><span id="step2"> </span>
             </p>
