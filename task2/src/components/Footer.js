@@ -47,24 +47,24 @@ const Footer = () => {
               <h2>Follow us</h2>
               <ul className="list-unstyled">
                 <li>
-                  <Link className="text-muted" href="#">
+                  <a className="text-muted" href="https://www.instagram.com/dscbitdeoghar/" target="_blank">
                     <AiOutlineInstagram className="" size="" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <a className="text-muted" href="https://twitter.com/dscbitmesra" target="_blank">
                     <i className="fab fa-twitter fa-2x"></i>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <a className="text-muted" href="https://www.linkedin.com/company/dsc-bitmesra/?originalSubdomain=in" target="_blank">
                     <i className="fab fa-linkedin fa-2x"></i>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <a className="text-muted" href="https://github.com/Developer-Students-Clubs-MESCOE" target="_blank">
                     <AiOutlineGithub />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
