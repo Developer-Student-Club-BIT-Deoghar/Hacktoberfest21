@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stopwatch</title>
+		<link rel="stylesheet" href="../css/stopwatch.css">
+		<link rel="stylesheet" href="../css/navbar.css">
+		</head>
+		<body>
+			<!-- Navbar begin -->
+			<header>
+				<nav>
+					<div class="navbar">
+						<div>
+							<a href="../index.html">Home</a>
+						</div>
+						<div>
+							<div class="dropdown">
+								<button class="dropbtn">Socials</button>
+								<div class="dropdown-content">
+									<a href="https://www.instagram.com">Instagram</a>
+									<a href="https://www.twitter.com">Twitter</a>
+								</div>
+							</div>
+							<div class="dropdown">
+								<button class="dropbtn">Tools</button>
+								<div class="dropdown-content">
+									<a href="calculator.html">Calculator</a>
+									<a href="stopwatch.html">StopWatch</a>
+									<a href="typing-speed-tester.html">Typing tester</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<!-- Navbar end -->
+			<div class="outer-div">
+				<h1>Stopwatch</h1>
+				<div id="circle-div">
+					<div id="three-display">
+						<div id="minute-counter-box">
+							<span id="minute">00</span>
+						</div>
+						<div id="colon">:</div>
+						<div id="second-counter-box">
+							<span id="second">00</span>
+						</div>
+						<div id="colon">:</div>
+						<div id="milli-counter-box">
+							<span id="milli">00</span>
+						</div>
+					</div>
+				</div>
+				<div id="div-btns">
+					<button class="btn" onclick="main();">Start</button>
+					<button class="btn" onclick="reset();">Reset</button>
+				</div>
+			</div>
+		</div>
+		<script src="../js/stopwatch.js"></script>
+	</body>
+</html>
