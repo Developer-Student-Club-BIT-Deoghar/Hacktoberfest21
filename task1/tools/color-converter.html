@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>Calculator</title>
-	<link rel="stylesheet" href="../css/calculator.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/color-converter.css">
 	<link rel="stylesheet" href="../css/navbar.css">
 </head>
-
 <body>
 	<!-- Navbar begin -->
 	<header>
@@ -39,43 +40,20 @@
 	</header>
 	<!-- Navbar end -->
 	<section>
-
-		<div class="calculator">
-			<div class="input" id="input"></div>
-			<div class="buttons">
-				<div class="operators">
-					<div>+</div>
-					<div>-</div>
-					<div>x</div>
-					<div>/</div>
-				</div>
-				<div class="leftPanel">
-					<div class="numbers">
-						<div>7</div>
-						<div>8</div>
-						<div>9</div>
-					</div>
-					<div class="numbers">
-						<div>4</div>
-						<div>5</div>
-						<div>6</div>
-					</div>
-					<div class="numbers">
-						<div>1</div>
-						<div>2</div>
-						<div>3</div>
-					</div>
-					<div class="numbers">
-						<div>0</div>
-						<div>.</div>
-						<div id="clear">C</div>
-					</div>
-				</div>
-				<div class="equal" id="result">=</div>
+		<div class="container">
+			<div class="input-container">
+				<label class="input">
+					<input id="hex" class="input__field" type="text" placeholder=" " />
+					<span class="input__label">Hex</span>
+				</label>
+				<label class="input">
+					<input id="rgb" class="input__field" type="text" placeholder=" " />
+					<span class="input__label">RGB</span>
+				</label>
 			</div>
+			<div class="demo" id="demo"></div>
 		</div>
 	</section>
-	<script src="../js/calculator.js"></script>
+	<script src="../js/color-converter.js"></script>
 </body>
-
 </html>
