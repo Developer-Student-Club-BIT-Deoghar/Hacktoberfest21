@@ -7,3 +7,4 @@ body {
 	padding-top: 0;
 	overflow: hidden;
 }
+html { overflow-y: scroll; }

@@ -14,7 +14,7 @@ function solve() {
     x1 = (((-b) + (Math.sqrt((b ** 2)- (4 * a * c)))) / (2 * a));
     x2 = (((-b) - (Math.sqrt((b ** 2)- (4 * a * c)))) / (2 * a));
     
-    answer.innerHTML = "x = "+ x1.toPrecision(2) +" or x = " + x2.toPrecision(2);
+    answer.innerHTML = "<b>x = <b>"+ x1.toPrecision(2) +" or x = " + x2.toPrecision(2);
     
     step1.innerHTML = ("[ "+ a +"x"+supe +" + "+ b + "x +" +c + " ] = 0");
     step2.innerHTML= ("x"+supe +" + "+b+"/"+a + "x +" +c+"/"+a+"=0");
