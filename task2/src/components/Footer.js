@@ -52,17 +52,17 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-muted" href="https://twitter.com/dscbitmesra" target="_blank">
+                  <a className="text-muted" href="https://twitter.com/club_bitd" target="_blank">
                     <i className="fab fa-twitter fa-2x"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="text-muted" href="https://www.linkedin.com/company/dsc-bitmesra/?originalSubdomain=in" target="_blank">
+                  <a className="text-muted" href="https://www.linkedin.com/in/dsc-bitd/" target="_blank">
                     <i className="fab fa-linkedin fa-2x"></i>
                   </a>
                 </li>
                 <li>
-                  <a className="text-muted" href="https://github.com/Developer-Students-Clubs-MESCOE" target="_blank">
+                  <a className="text-muted" href="https://github.com/Developer-Student-Club-BIT-Deoghar" target="_blank">
                     <AiOutlineGithub />
                   </a>
                 </li>
