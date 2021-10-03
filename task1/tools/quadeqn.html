@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quadractic Equation Solver</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/quadeqn.css">
+</head>
+<script src="../js/quadeqn.js"></script>
+<body>
+    <!-- Navbar begin -->
+	<header>
+		<nav>
+			<div class="navbar">
+				<div>
+					<a href="../index.html">Home</a>
+				</div>
+				<div>
+					<div class="dropdown">
+						<button class="dropbtn">Socials</button>
+						<div class="dropdown-content">
+							<a href="https://www.instagram.com">Instagram</a>
+							<a href="https://www.twitter.com">Twitter</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">Tools</button>
+						<div class="dropdown-content">
+                            <a href="stopwatch.html">StopWatch</a>
+                            <a href="typing-speed-tester.html">Typing speed tester</a>
+                            <a href="random-password-generator.html">Random Password Generator</a>
+                            <a href="calculator.html">Calculator</a>
+                            <a href="pomodoro.html">Pomodoro Timer</a>
+                            <a href="quadeqn.html">Quadractic Equation Solver</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- Navbar end -->
+    <h1 align='center'>Quadratic Equation Solver</h1>
+    <div class="container">
+        <div align='center' class="inputs-container">
+            <form action="#">
+                Coefficient for x<sup>2</sup>: <input placeholder="A" type="number" name="a" id="a"><label for="a"></label><br>
+                Coefficient for x: <input placeholder="B" type="number" name="b" id="b"><label for="b"></label><br>
+                Constant term: <input placeholder="C" type="number" name="c" id="c"><label for="c"></label>
+            </form>
+        </div>
+        <br>
+        <div align='center' class="submit-input"> <input onclick="solve()" class="calculate" type="button" value="Solve It"></div>
+        <div id="answer" class="answer"> <h3><b>Result</b></h3></div>
+        The roots of a quadratic equation <em>ax</em><sup>2</sup> + <em>bx</em> + <em>c</em> = 0 is solved using the following steps:
+        <br><br>
+        <div class="steps"> <label for="step1">Step 1 ----- </label><span id="step1"> </span>
+            <p> <label for="step2">Step 2 ----- </label><span id="step2"> </span>
+            </p>
+            <label for="step3">Step 3 ----- </label><span id="step3"> </span>
+            <p><label for="step4">Step 4 ----- </label><span id="step4"> </span></p>
+        </div>
+    </div>
+    <hr>
+    <div class="tex2jax">
+        <p>The derivation of this formula can be outlined as follows:</p>
+        <ol>
+            <li>&nbsp; Divide both sides of the equation <em>ax</em><sup>2</sup> + <em>bx</em> + <em>c</em> = 0 by
+                <em>a</em>.</li>
+            <li>&nbsp; Transpose the quantity <em>c</em>/<em>a</em> to the right side of the equation.</li>
+            <li>&nbsp; Complete the square by adding <em>b</em><sup>2</sup> / 4<em>a</em><sup>2</sup> to both sides of
+                the equation.</li>
+            <li>&nbsp; Factor the left side and combine the right side.</li>
+            <li>&nbsp; Extract the square-root of both sides of the equation.</li>
+            <li>&nbsp; Solve for <em>x</em> by transporting the quantity <em>b</em> / 2<em>a</em> to the right side of
+                the equation.</li>
+            <li>&nbsp; Combine the right side of the equation to get the quadratic formula.</li>
+        </ol>
+    </div>
+</body>
+
+</html>
