@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -30,39 +30,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/typing-speed-tester.css">
+    <link rel="stylesheet" href="../css/navbar.css">
     <title>Typing Speed Game</title>
 </head>
 <body>
-    <div class="main-ui"> 
-     <!-- Navbar begin -->
+    <!-- Navbar begin -->
 	<header>
 		<nav>
 			<div class="navbarr">
 				<div>
-					<a href="../index.html">Home</a>
+					<a href="../index.html"><img class="home-icon" src="images/icons/home.png"></a>
 				</div>
-				<div>
-					<div class="dropdownn">
-						<button class="dropbtn">Socials</button>
-						<div class="dropdown-content">
-							<a href="https://www.instagram.com">Instagram</a>
-							<a href="https://www.twitter.com">Twitter</a>
-						</div>
-					</div>
 					<div class="dropdownn">
 						<button class="dropbtn">Tools</button>
-						<div class="dropdown-content">
-							<a href="calculator.html">Calculator</a>
-							<a href="stopwatch.html">StopWatch</a>
-                            <a href="typing-speed-tester.html">Typing tester</a>
-                            <a href="pomodoro.html">Pomodoro Timer</a>
-						</div>
-					</div>
+					    <div class="dropdown-content">
+						<a href="calculator.html">Calculator</a>
+						<a href="stopwatch.html">StopWatch</a>
+						<a id="tst" href="typing-speed-tester.html">Typing speed tester</a>
+						<a href="random-password-generator.html">Random Password Generator</a>
+						<a href="pomodoro.html">Pomodoro Timer</a>
+				    </div>
+			    </div>
+				<div class="social-icons">
+					<a href="https://www.instagram.com"><img id="icon" class="instagram" src="images/icons/instagram.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
+					<a href="https://www.twitter.com"><img id="icon" class="twitter" src="images/icons/twitter.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
+					<a href="https://www.facebook.com"><img id="icon" class="facebook" src="images/icons/facebook.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
+					<a href="https://www.linkedin.com"><img id="icon" class="linkedin" src="images/icons/linkedin.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
+					<a href="https://www.youtube.com"><img id="icon" class="youtube" src="images/icons/youtube.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
 				</div>
 			</div>
 		</nav>
 	</header>
-	<!-- Navbar end -->     
+	<!-- Navbar end -->
+    
+    <div class="main-ui"> 
      <!-- content -->
      <div class="scoreboard pb-md-2 pt-5">
           <div class="speed text-center">
@@ -100,6 +101,7 @@
              <div class="text-center pt-md-3"><button class="btn btn-info startOver">Start Over</button></div>
          </div>
      </div>
+
     <!-- JS -->
     <script src="../js/typing-speed-tester.js"></script>
 </body>

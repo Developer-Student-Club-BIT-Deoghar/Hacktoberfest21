@@ -125,3 +125,7 @@ h1 {
     outline: none;
     margin-left: 40px;
 }
+
+.navbar {
+    height:55px !important;
+}

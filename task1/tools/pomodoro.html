@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pomodoro Timer</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="../css/pomodoro.css">
     <link rel="stylesheet" href="../css/navbar.css">
-    <title>Pomodoro Timer</title>
+
 </head>
 <body>
     <!-- Navbar begin -->
@@ -14,25 +19,24 @@
 		<nav>
 			<div class="navbar">
 				<div>
-					<a href="../index.html">Home</a>
+					<a href="../index.html"><img class="home-icon" src="images/icons/home.png"></a>
 				</div>
-				<div>
-					<div class="dropdown">
-						<button class="dropbtn">Socials</button>
-						<div class="dropdown-content">
-							<a href="https://www.instagram.com">Instagram</a>
-							<a href="https://www.twitter.com">Twitter</a>
-						</div>
-					</div>
 					<div class="dropdown">
 						<button class="dropbtn">Tools</button>
-						<div class="dropdown-content">
-							<a href="calculator.html">Calculator</a>
-							<a href="stopwatch.html">StopWatch</a>
-							<a href="typing-speed-tester.html">Typing tester</a>
-							<a href="pomodoro.html">Pomodoro Timer</a>
-						</div>
-					</div>
+					    <div class="dropdown-content">
+						<a href="calculator.html">Calculator</a>
+						<a href="stopwatch.html">StopWatch</a>
+						<a href="typing-speed-tester.html">Typing speed tester</a>
+						<a href="random-password-generator.html">Random Password Generator</a>
+						<a href="pomodoro.html">Pomodoro Timer</a>
+				    </div>
+			    </div>
+				<div class="social-icons">
+					<a href="https://www.instagram.com"><img id="icon" class="instagram" src="images/icons/instagram.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
+					<a href="https://www.twitter.com"><img id="icon" class="twitter" src="images/icons/twitter.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
+					<a href="https://www.facebook.com"><img id="icon" class="facebook" src="images/icons/facebook.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
+					<a href="https://www.linkedin.com"><img id="icon" class="linkedin" src="images/icons/linkedin.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
+					<a href="https://www.youtube.com"><img id="icon" class="youtube" src="images/icons/youtube.png" onmouseover='hover(this);' onmouseout='unhover(this);'></a>
 				</div>
 			</div>
 		</nav>
@@ -75,6 +79,9 @@
         </div>
     </div>
     </div>
+
+    <!-- JS -->
+    <script src="../js/navbar.js"></script>
     <script src="../js/pomodoro.js"></script>
 </body>
 </html>

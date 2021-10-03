@@ -7,3 +7,4 @@
         div.style.backgroundImage = 'url(' + img + ')';
     }
 }());
+
