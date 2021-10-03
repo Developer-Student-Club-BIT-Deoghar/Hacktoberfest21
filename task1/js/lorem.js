@@ -1,0 +1,33 @@
+const text = [
+  `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat ipsum massa, non ultricies lacus euismod at. Nullam semper, enim eget pretium lacinia, justo elit sollicitudin lectus, ac lacinia purus quam et quam. Etiam finibus justo sit amet pellentesque tristique. Vestibulum tempor sed nisi vel malesuada. Nunc dignissim purus vel nibh accumsan, vel maximus nibh aliquet. Ut justo dolor, auctor in finibus eu, rutrum vitae dui. Phasellus ullamcorper mauris et ipsum blandit, laoreet aliquam nisl faucibus. Suspendisse quis sem orci. Suspendisse id neque leo. Phasellus euismod varius purus eget congue. Integer sollicitudin sem eget tortor consectetur fermentum. Pellentesque finibus malesuada eros ut molestie. Nunc non eleifend ligula. In sit amet sapien gravida, imperdiet diam eu, suscipit sem. Vivamus commodo metus eget velit feugiat ullamcorper vel non sapien.`,
+  `Sed in ornare massa, aliquam tristique lectus. Nam in velit a dui accumsan ultrices vel id sem. Aliquam sollicitudin urna a pretium pretium. Duis vehicula eros risus, a sodales erat venenatis in. Nam blandit, elit vel rutrum posuere, sapien dolor commodo erat, aliquet euismod massa ex non neque. Aenean sollicitudin purus at mattis faucibus. In tempor eleifend orci, sed sodales nunc posuere eget. Quisque tincidunt orci et ipsum finibus, non vehicula leo fermentum. Suspendisse nec pretium risus. Mauris tincidunt augue non massa sodales viverra. Nunc porta lacus at metus feugiat euismod.`,
+  `Dreamcatcher sartorial asymmetrical crucifix wolf godard, coloring book squid freegan affogato lumbersexual franzen. Drinking vinegar vape chillwave pinterest tofu pug hella sartorial neutra cray tumeric. Poke cloud bread XOXO salvia. Glossier jean shorts craft beer gastropub, squid pitchfork humblebrag listicle taiyaki messenger bag retro thundercats subway tile raw denim. Hoodie asymmetrical food truck listicle pour-over.`,
+  `Sed eu quam non velit bibendum imperdiet volutpat et sem. Duis magna velit, placerat quis metus quis, lobortis pharetra enim. In rhoncus sit amet dui quis hendrerit. Nam gravida ligula ac tortor pretium mollis. Integer tempus fringilla nisl, eget scelerisque nulla vestibulum sed. Duis id scelerisque erat, vel lacinia mi. Duis posuere turpis nec lacus venenatis dapibus. Curabitur vitae suscipit ipsum, nec pulvinar nulla. Donec finibus mattis ex, eget congue justo tristique eu. Nullam in nibh ante. Integer sed feugiat lorem, non tincidunt enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut dapibus elit turpis, ut finibus augue aliquet sit amet. Quisque tristique sem ac porta volutpat.`,
+  `Pellentesque gravida ante sed purus facilisis, sed fringilla metus maximus. Cras in neque fringilla, sodales ligula et, consequat metus. Nunc vitae pulvinar lorem, quis elementum justo. Vivamus posuere efficitur dolor convallis viverra. Sed dapibus urna vitae nulla tristique, et fermentum nunc aliquet. Vivamus nulla est, feugiat vel hendrerit quis, efficitur sed nunc. Pellentesque eu venenatis nibh. Suspendisse placerat pellentesque velit eu rhoncus. Proin vitae cursus erat, at dignissim est. Suspendisse vulputate magna ex, a egestas erat accumsan non. Aenean massa sapien, accumsan et fermentum non, sagittis vitae elit. Fusce sagittis libero nulla, id sodales lacus vulputate vitae. Curabitur et egestas sem, nec tempus lorem. Nunc id iaculis erat, eu tincidunt erat. Ut leo justo, aliquet vitae risus a, rhoncus efficitur odio.`,
+  `Jianbing live-edge bicycle rights messenger bag, street art offal squid gastropub food truck kale chips locavore. Mustache humblebrag banjo, shaman offal photo booth coloring book mumblecore typewriter tbh you probably haven't heard of them. Disrupt glossier umami pop-up, schlitz listicle keytar ramps. Try-hard tumblr crucifix aesthetic lyft.`,
+  `Vivamus tristique odio in metus venenatis, in suscipit tellus egestas. Vestibulum et semper diam, sit amet molestie eros. Sed leo quam, consequat ullamcorper finibus at, porta at orci. Vivamus ac elit ut odio malesuada interdum. Vestibulum sed est placerat, rhoncus eros et, fermentum ipsum. Maecenas eget vehicula nisl. Pellentesque feugiat, tellus quis volutpat pharetra, purus purus egestas urna, a blandit lorem turpis sit amet nisl. Nunc dolor lectus, tincidunt non interdum eget, molestie sit amet mauris. Sed sed eleifend felis. Nunc ut sollicitudin quam. Nunc gravida eget tortor sit amet suscipit. Morbi sit amet leo ut sem placerat fringilla vel id odio. Duis ornare efficitur diam, ut lobortis neque mattis at. Nullam semper diam eget leo facilisis pharetra at vitae mauris. Aliquam condimentum felis ipsum, at accumsan tortor sagittis eget. Nulla maximus arcu sed dictum sodales.`,
+  `Cliche organic woke yr gluten-free, twee PBR&B everyday carry 8-bit roof party. Hexagon craft beer pinterest humblebrag raw denim pabst schlitz celiac. Quinoa hoodie man braid, iPhone flannel chia scenester pinterest kickstarter enamel pin health goth aesthetic art party cliche mustache. Irony cred street art locavore green juice.`,
+  `Curabitur suscipit in nibh a congue. Sed vel tellus justo. Pellentesque vel risus sed tortor ultricies consequat vitae et nibh. Vivamus nunc tortor, cursus quis convallis ut, vulputate ac sapien. Aenean eleifend, justo sit amet accumsan egestas, turpis odio lobortis libero, in sagittis quam sapien id massa. Praesent id vestibulum lectus. Donec efficitur neque non interdum pharetra. Vestibulum quis ultrices mi. Ut varius auctor sapien, vel euismod tellus consequat a. Phasellus condimentum ligula quis gravida vulputate. In sed lectus ullamcorper nisi tincidunt convallis. Nunc congue enim sed dolor hendrerit ultrices. Proin vel diam sed justo fringilla posuere in eget dolor. In ultricies arcu eget volutpat ullamcorper. Ut sagittis magna a tortor aliquet, in suscipit eros tristique. Vestibulum eget commodo lacus, sed commodo mauris.`,
+];
+
+const form = document.querySelector(".lorem-form");
+const numofpara = document.getElementById("numofpara");
+const numofparaRange = document.getElementById("numofparaRange");
+const result = document.querySelector(".lorem-text");
+
+function syncParaNumbers(e) {
+  const value = e.target.value;
+  numofpara.value = value;
+  numofparaRange.value = value;
+}
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const value = parseInt(numofpara.value);
+  let tempText = text.slice(0, value);
+  tempText = tempText.map((item) => `<p class="result">${item}</p>`).join("");
+  result.innerHTML = tempText;
+});
+
+numofpara.addEventListener("input", syncParaNumbers);
+numofparaRange.addEventListener("input", syncParaNumbers);
