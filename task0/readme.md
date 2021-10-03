@@ -1,8 +1,13 @@
 **Step 1:** Fork this Repository.
+
 **Step 2:** Clone/ Download the code.
+
 **Step 3:** Go to `task0/images/` folder.
+
 **Step 4:** Upload your image as `YourName.jgp`
+
 **Step 5:** Then, Navigate to `task0/index.html` and find the commented line `<!-- PASTE YOUR CODE ABOVE -->`
+
 **Step 6:** Paste the following code there:
 
     <div class="card">
@@ -16,8 +21,11 @@
     </div>
     </br>
     </div> </br>
+
 **Step 7:** Edit the code and insert your details.
+
 **Step 8:** Upload the updated files on the forked repository.
+
 **Step 9:** Now, create a pull request with `task0YourName` as its TITLE.
 
 Additionally, you can also help in making the page more attractive and show off your creativity skills.
