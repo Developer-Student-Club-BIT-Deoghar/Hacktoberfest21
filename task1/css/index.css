@@ -7,6 +7,25 @@ body {
 	padding-top: 0;
 }
 
+
+/* PreLoader CSS */
+
+#loader{
+    background:#000;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+#loader img{
+    height: 12rem;
+    width: 12rem;
+    align-self: center;
+}
+
+
 /* BUTTONS */
 
 input[type="submit"],
