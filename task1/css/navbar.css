@@ -14,7 +14,7 @@ nav{
 	font-family: sans-serif;
 	overflow: hidden;
 	background-color: #1e2745;
-	padding: 0 4rem;
+	padding: -1px 4rem;
 }
 
 .navbar a {
@@ -76,3 +76,14 @@ nav{
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+@media only screen and (max-width: 351px) {
+	.navbar{
+		display: flex;
+		flex-direction: column;
+	}
+	.sec_navbar{
+		display: flex;
+		flex-direction: column;
+		margin-right: -1rem;
+	}
+  }
