@@ -98,6 +98,7 @@ nav{
 #icon {
 	width:35px;
 	transition: transform 0.2s ease;
+	border-radius:8px;
 }
 
 #icon:hover {
