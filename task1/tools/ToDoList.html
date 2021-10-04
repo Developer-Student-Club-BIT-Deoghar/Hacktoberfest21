@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="../css/ToDoList.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navbar begin -->
+	<header>
+		<nav>
+			<div class="navbar">
+				<div>
+					<a href="../index.html">Home</a>
+				</div>
+				<div>
+					<div class="dropdown">
+						<button class="dropbtn">Socials</button>
+						<div class="dropdown-content">
+							<a href="https://www.instagram.com">Instagram</a>
+							<a href="https://www.twitter.com">Twitter</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">Tools</button>
+						<div class="dropdown-content">
+							<a href="calculator.html">Calculator</a>
+                            <a href="stopwatch.html">StopWatch</a>
+                            <a href="typing-speed-tester.html">Typing speed tester</a>
+                            <a href="random-password-generator.html">Random Password Generator</a>
+                            <a href="pomodoro.html">Pomodoro Timer</a>
+                            <a href="quadeqn.html">Quadratic Equation Solver</a>
+							<a href="color-converter.html">Color Converter</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- Navbar end -->
+   
+    <h1><span class="title">Todo</span> List</h1>
+    <div class="inputDiv">
+    	   <input type="text" class="input" placeholder="Add a task" required>
+           <button class="add"><i class="fa fa-plus fa-2x"></i></button>
+    </div>
+    <div class="container">
+        
+    </div>
+    <!--<button class="clear" onClick="clear()">CLEAR</button>-->
+    
+    <script src="../js/ToDoList.js"></script>
+</body>
+</html>
