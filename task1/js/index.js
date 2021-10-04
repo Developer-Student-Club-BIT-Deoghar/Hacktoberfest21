@@ -7,3 +7,9 @@
         div.style.backgroundImage = 'url(' + img + ')';
     }
 }());
+
+
+var loaders = document.getElementById("loader");        
+function fun(){
+  loaders.style.display='none';
+}  
