@@ -8,13 +8,13 @@ nav{
 }
 
 .navbar {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	font-family: sans-serif;
 	overflow: hidden;
 	background-color: #1e2745;
 	padding: 0 4rem;
+	padding-top: 5px;
+	height:50px;
+	border-bottom: #0f1529 1px solid;
 }
 
 .navbar a {
@@ -22,7 +22,6 @@ nav{
 	font-size: 16px;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 }
 
@@ -34,19 +33,23 @@ nav{
 .dropdown .dropbtn {
 	font-size: 16px;
 	border: none;
+	border-radius: 10%;
 	outline: none;
 	color: white;
-	padding: 14px 16px;
+	padding: 14px 50px;
 	background-color: inherit;
 	font-family: inherit;
-	margin: 0;
-	margin-right: 1rem;
+	margin: -2px 0 0 1rem;
 	text-transform: none;
-	transition: background-color 0.2s ease;
+	transition: background-color 0.5s ease;
 }
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
+.dropbtn:hover {
+	background-color: #192038;
+	cursor:pointer;
+}
+
+.dropbtn.active {
 	background-color: #192038;
 }
 
@@ -56,7 +59,7 @@ nav{
 	background-color: #f9f9f9;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 2;
+	z-index: 1;
 }
 
 .dropdown-content a {
@@ -70,9 +73,47 @@ nav{
 }
 
 .dropdown-content a:hover {
-	background-color: #ddd;
+	background-color: #a6bfcf;
 }
 
-.dropdown:hover .dropdown-content {
-	display: block;
+#icon, .home-icon {
+	margin: 5px;
+	padding: 0px;
+}
+
+.home-icon {
+  width:25px;
+	margin-top:10px;
+	transition: transform 0.2s ease;
+}
+
+.home-icon:hover {
+	transform: scale(1.1);
+}
+
+.social-icons {
+	float:right;
+}
+
+#icon {
+	width:35px;
+	transition: transform 0.2s ease;
+	border-radius:8px;
+}
+
+#icon:hover {
+	transform: scale(1.1);
+}
+
+@media screen and (max-width: 560px)
+{
+	.dropbtn, .dropdown {
+		display: none;
+	}
+	.home-icon {
+		margin-left: -30px;
+	}
+	.social-icons{
+		margin-right:-50px;
+	}
 }
