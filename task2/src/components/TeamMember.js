@@ -12,15 +12,15 @@ function TeamMember({name, img}) {
         <div class="right">
         <h2>{name}</h2>
         <div className="">
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     <AiOutlineInstagram className="icon icon1" size="" />
                   </Link>
                 
-                  <Link className="text-muted icon icon2" href="#">
+                  <Link className="text-muted icon icon2" to="/">
                     <AiOutlineGithub />
                   </Link>
 
-                  <Link className="text-muted icon" href="#">
+                  <Link className="text-muted icon" to="/">
                     <AiOutlineLinkedin />
                   </Link>
         </div>

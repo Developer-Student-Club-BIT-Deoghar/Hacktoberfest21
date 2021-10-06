@@ -12,22 +12,22 @@ const Footer = () => {
               {/* <h2>Explore</h2>
               <ul className="list-unstyled text-small">
                 <li>
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     Industries
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     Blog
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     Contact us
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     Privacy Policy
                   </Link>
                 </li>
@@ -47,22 +47,22 @@ const Footer = () => {
               <h2>Follow us</h2>
               <ul className="list-unstyled">
                 <li>
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     <AiOutlineInstagram className="" size="" />
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     <i className="fab fa-twitter fa-2x"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     <i className="fab fa-linkedin fa-2x"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-muted" href="#">
+                  <Link className="text-muted" to="/">
                     <AiOutlineGithub />
                   </Link>
                 </li>
