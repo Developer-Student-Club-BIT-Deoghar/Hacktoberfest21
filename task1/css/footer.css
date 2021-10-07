@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.icon {
+  font-size: 40px;
+  color: white;
+}
+
+header {
+  align-items: center;
+  z-index: 1000;
+}
+
+section {
+    padding: 100px;
+  }
+  
+  .btn {
+    position: relative;
+    opacity: 0.9;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  .heading.white {
+    color: #fff;
+  }
+  .conetntBx {
+    padding-right: 30px;
+  }
+  .conetntBx h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+   .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .work .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .work .content .workBx {
+    width: 50%;
+    padding: 20px;
+  }
+  .work .content .workBx img {
+    max-width: 100%;
+  }
+  
+   .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+   .content .testimonialBx {
+    max-width: calc(50% - 40px);
+    padding: 60px 40px;
+    margin: 20px;
+    background: #2196f3;
+  }
+  .testimonial .content .testimonialBx p {
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .testimonial .content .testimonialBx h3 {
+    margin-top: 40px;
+    text-align: end;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1em;
+  }
+  .testimonial .content .testimonialBx h3 span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .contact {
+    background: #1e2745;
+  }
+  .formBx {
+    min-width: 60%;
+  }
+  .formBx form {
+    display: flex;
+    flex-direction: column;
+  }
+  .formBx form h3,
+  .contactInfo h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .formBx form input,
+  .formBx form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    resize: none;
+    color: #fff;
+  }
+  .formBx form input::placeholder,
+  .formBx form textarea::placeholder {
+    color: #999;
+  }
+  .formBx form textarea {
+    min-height: 200px;
+  }
+  .formBx form input[type="submit"] {
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .contactInfo {
+    min-width: 40%;
+  }
+  .contactInfoBx {
+    position: relative;
+  }
+  .contactInfoBx .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+  }
+  .contactInfoBx .box .icon {
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+  }
+  .contactInfoBx .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  .contactInfoBx .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+    margin-bottom: 0;
+  }
+  .contactInfoBx .box .text p {
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .linkedin{
+      width: 8%;
+      cursor: pointer;
+      
+  }
+  
+  .mail{
+      width: 8%;
+      cursor: pointer;
+  }
+  
+  .git{
+      width: 8%;
+      cursor: pointer;
+  }
+  
+  .map{
+      width: 8%;
+      cursor: pointer;
+  }
+  
+  
+  
+  @media (max-width: 991px) {
+    
+    
+    section {
+      padding: 100px 50px;
+    }
+    
+    .content {
+      flex-direction: column;
+    }
+    .heading h2 {
+      font-size: 24px;
+    }
+    .conetntBx h3 {
+      font-size: 20px;
+    }
+    
+     .content {
+      margin: 10px;
+    }
+    .work .content .workBx {
+      width: 100%;
+      padding: 10px;
+    }
+     .content .testimonialBx {
+      max-width: calc(100% - 20px);
+      padding: 40px 20px;
+      margin: 10px;
+    }
+    .testimonial .content .testimonialBx h3 {
+      margin-top: 20px;
+    }
+    .contactInfo {
+      margin: 20px 0;
+    }
+  }
+  
+  
