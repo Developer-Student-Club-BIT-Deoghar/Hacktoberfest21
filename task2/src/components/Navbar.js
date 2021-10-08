@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import logo from "../images/logo.png";
 import { BsSun, BsMoon } from "react-icons/bs";
 
@@ -30,6 +30,9 @@ const Navbar = () => {
     document.documentElement.className = theme;
     localStorage.setItem("theme", theme);
   }, [theme]);
+
+  let location = useLocation();
+
   return (
     <>
       <div className="container-fluid">
@@ -67,7 +70,7 @@ const Navbar = () => {
                     <li className="nav-item">
                       <NavLink
                         activeClassName="menuActive"
-                        className="nav-link"
+                        className={`nav-link ${location.pathname === "/" ? "active" : ""}`}
                         aria-current="page"
                         exact
                         to="/"
@@ -78,7 +81,7 @@ const Navbar = () => {
                     <li className="nav-item">
                       <NavLink
                         activeClassName="menuActive"
-                        className="nav-link"
+                        className={`nav-link ${location.pathname === "/about" ? "active" : ""}`}
                         aria-current="page"
                         to="/about"
                       >
@@ -88,7 +91,7 @@ const Navbar = () => {
                     <li className="nav-item">
                       <NavLink
                         activeClassName="menuActive"
-                        className="nav-link"
+                        className={`nav-link ${location.pathname === "/team" ? "active" : ""}`}
                         aria-current="page"
                         to="/team"
                       >
