@@ -2,7 +2,6 @@ body {
     font-family: sans-serif;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, .1);
-    padding: 120px 0;
 	margin:0;
 	padding-top: 0;
 }
@@ -15,13 +14,15 @@ button {
     font-size: 1.1rem;
     display: inline-block;
     text-align: center;
-    border: 1px solid rgba(0,0,0,.3);
-    color: rgba(0, 0, 0, .3);
+    color: white;
     min-width: 120px;
     padding: 14px 10px;
-    background-color: white;
+    background-color: #5b677a;
     text-transform: uppercase;
     border-radius: 2px;
+    text-decoration: none;
+    box-shadow: 0 0px 12px 0 rgba(0,0,0,.4);
+
 }
 
 input[type="submit"]:hover,
@@ -63,6 +64,7 @@ button:hover {
     margin: -30px auto 0 auto;
     width: 80%;
     padding: 20px 10px;
+    box-shadow: 0 0px 12px 0 rgba(0,0,0,.4);
 }
 
 .card__title {
